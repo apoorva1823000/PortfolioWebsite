@@ -206,6 +206,10 @@ span{
     font-size: 1.3rem;
     margin: 1rem 0 3rem;
 }
+#openSeaIcon{
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
 .portfolio{
     background: var(--second-bg-color);
 }
