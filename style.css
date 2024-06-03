@@ -87,12 +87,14 @@ span{
     line-height: 1.3;
 }
 .home-img img{
-    width: 28vw;
+    width: 30vw;
     padding: 0;
     animation: floatImage 4s ease-in-out infinite;
     border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
     /* border-image: 0.25rem solid linear-gradient(315deg,#00ccff,#d400d4); */
-    border: 4rem inset rgba(0, 0, 0, 0.5);
+    border: 2rem inset rgba(0, 0, 0, 0.5);
 }
 @keyframes floatImage{
     0%{
@@ -186,9 +188,14 @@ span{
 .about-content{
     font-size: 1.6rem;
     line-height: 1.8;
+    margin: 15px;
 }
 .about-img img{
-    width: 40vw;
+    width: 25vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px rgba(0, 150, 255, 0.5); /* Glow effect */
     animation: floatImage 4s ease-in-out infinite;
 }
 .about-content h2{
@@ -202,11 +209,11 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
-a.instagram, a.twitter, a.linkedin, a.nft, a.mirror {
+a.instagram, a.twitter, a.linkedin, a.nft, a.mirror, a.playstore {
     position: relative;
 }
  
-a.instagram:hover::after, a.twitter:hover::after, a.linkedin:hover::after, a.nft:hover::after, a.mirror:hover::after {
+a.instagram:hover::after, a.twitter:hover::after, a.linkedin:hover::after, a.nft:hover::after, a.mirror:hover::after, a.playstore:hover::after {
     content: attr(data-title);
     background-color: #00fff7;
     color: #000000;
