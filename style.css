@@ -137,19 +137,18 @@ span{
 .home-content p{
     font-size: 1.6rem;
 }
-.name{
-    text-shadow: 1px 1px 1px #919191,
-    1px 2px 1px #919191,
-    1px 3px 1px #919191,
-    1px 4px 1px #919191,
-    1px 5px 1px #00ffee,
-    1px 6px 1px #00ffee,
-    1px 7px 1px #00ffee,
-    1px 8px 6px rgba(0, 255, 242, 0.4),
-    1px 12px 10px rgba(0, 255, 242, 0.2),
-    1px 15px 25px rgba(0, 255, 242, 0.2),
-    1px 10px 20px rgba(0, 255, 242, 0.4);
+.name {
+    color: #fff; /* Text color */
+    font-weight: bold; /* Make the text bold for better visibility */
+    text-shadow: 
+        1px 1px 0px #000,   /* Subtle 3D effect shadow */
+        2px 2px 1px #000,   /* Subtle 3D effect shadow */
+        3px 3px 2px #000,   /* Subtle 3D effect shadow */
+        0 0 8px rgba(0, 221, 255, 0.6),   /* Blue glow effect */
+        0 0 12px rgba(0, 221, 255, 0.6);  /* Blue glow effect */
+    transform: translate3d(1px, 1px, 0); /* Slightly 3D transform for depth */
 }
+
 .social-media a{
     display: inline-flex;
     justify-content: center;
