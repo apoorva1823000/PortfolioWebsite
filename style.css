@@ -137,6 +137,19 @@ span{
 .home-content p{
     font-size: 1.6rem;
 }
+.name{
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #00ffee,
+    1px 6px 1px #00ffee,
+    1px 7px 1px #00ffee,
+    1px 8px 6px rgba(0, 255, 242, 0.4),
+    1px 12px 10px rgba(0, 255, 242, 0.2),
+    1px 15px 25px rgba(0, 255, 242, 0.2),
+    1px 10px 20px rgba(0, 255, 242, 0.4);
+}
 .social-media a{
     display: inline-flex;
     justify-content: center;
