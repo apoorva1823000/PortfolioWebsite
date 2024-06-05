@@ -489,14 +489,14 @@ a.instagram:hover::after, a.twitter:hover::after, a.linkedin:hover::after, a.nft
         font-size: 5rem;
     }
     .home-img img{
-        width: 90vw;
+        width: 60vw;
         margin-top: 4rem;
     }
     .about{
         flex-direction: column-reverse;
     }
     .about-img img{
-        width: 90vw;
+        width: 50vw;
         align-items: center;
         justify-content: center;
         margin-top: 4rem;
